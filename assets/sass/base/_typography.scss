@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800|Fredoka+One&display=swap');
+
+body {
+    color: $color-black;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.6rem;
+}
+
+.heading {
+    font-family: 'Fredoka One', cursive;
+    color: $color-primary-dark;
+    text-transform: uppercase;
+
+    backface-visibility: hidden;
+
+    &--main {
+        font-size: 3rem;
+}
+}

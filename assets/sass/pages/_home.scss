@@ -1,0 +1,68 @@
+.header {
+    height: 20vh;
+
+    position: relative;
+
+    &__img {
+        color: $color-secondary;
+        font-size: 15rem;
+
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    &__textbox {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 10;
+    }
+}
+
+.sub-header {
+    background-color: $color-primary-dark;
+    border-radius: 3px;
+    padding: .3rem;
+
+    &__search {
+        text-align: center;
+    }
+}
+
+.section-info {
+
+    &--main {
+        height: 60vh;
+        background-color: $color-white;
+        padding: 2rem;
+    }
+
+    &__textbox {
+
+        &--city {
+            font-size: 4rem;
+        }
+
+        &--temp {
+            font-size: 2rem;
+        }
+
+        &--condition {
+            font-size: 2rem;
+
+        }
+    }
+
+    &--sub {
+        background-color: $color-primary-light;
+        padding: 1rem;
+    }
+
+}
+
+.giphy-img {
+    max-height: 30rem;
+}

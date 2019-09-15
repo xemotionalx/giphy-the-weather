@@ -1,0 +1,22 @@
+{
+  "name": "giphy-the-weather",
+  "version": "1.0.0",
+  "description": "giphy weather api app",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass assets/sass/main.scss assets/css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xemotionalx/giphy-the-weather.git"
+  },
+  "author": "maiada",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xemotionalx/giphy-the-weather/issues"
+  },
+  "homepage": "https://github.com/xemotionalx/giphy-the-weather#readme",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}

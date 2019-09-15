@@ -1,0 +1,31 @@
+.btn {
+    
+    background-image: linear-gradient(to bottom right, $color-secondary, $color-secondary, $color-secondary-dark);
+    border: transparent;
+    box-shadow: .2rem .2rem .4rem rgba($color-black, .4);
+
+&__favs {
+
+    color: $color-heart;
+    border-radius: 3px;
+    padding: 1rem;
+
+    &--lg {
+        font-size: 3rem;
+    }
+
+    &--sm {
+        font-size: 2rem;
+    }
+
+}
+
+&__random {
+    color: $color-primary-dark;
+    font-size: 3rem;
+    border-radius: 3px;
+    padding: 1rem;
+
+}
+
+}

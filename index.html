@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Giphy the Weather!</title>
+
+    <!-- JS & JQUERY -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/js/script.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/3f7d57fead.js"></script>
+
+</head>
+
+<body>
+    <header class="header">
+        <i class="fas fa-sun header__img"></i>
+        <div class="header__textbox">
+            <h1 class="heading heading--main">
+                Giphy the Weather!
+            </h1>
+        </div>
+    </header>
+
+    <div class="sub-header">
+        <div class="row">
+            <div class="col-1-of-3">
+                <div class="u-center-flex">
+                    <button class="btn btn__favs" id="fav-button">
+                        <i class="fas fa-heart btn__favs--lg"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="col-1-of-3">
+
+                <div class="sub-header__search">
+                    
+                    <form class="search-form" id="api-form">    
+                        
+                        <input class="search-form__input" type="text" id="api-input">
+                        <br>
+                        <input class="search-form__btn" id="find-api" type="submit" value="Giphy Yr Weather!">
+      
+                    </form>
+
+                </div>
+            </div>
+
+            <div class="col-1-of-3">
+                <div class="sub-header__randomize u-center-text">
+                    <button class="btn btn__random" id="random-btn">
+                            <i class="fas fa-redo-alt"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="section-info">
+        <div class="section-info--main u-center-text">
+
+            <div class="section-info__textbox">
+                <div class="section-info__textbox--city u-margin-bottom-small" id="city-text">City</div>
+                <div class="section-info__textbox--temp" id="temp-text">Temp</div>
+                <div class="section-info__textbox--condition" id="conditions-text">Weather Conditions</div>
+            </div>
+
+            <div class="section-info__gifbox" id="gif-box">
+
+            </div>
+
+        </div>
+        <div class="section-info--sub">
+                <button class="btn btn__favs">
+                    <i class="fas fa-heart btn__favs--sm"></i>
+                </button>
+                Add to Favorites!
+            </div>
+    </section>
+
+
+</body>
+
+</html>
